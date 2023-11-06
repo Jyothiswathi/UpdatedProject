@@ -11,6 +11,18 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {"location":{"lat":-38.383494,"lng":33.427362},"accuracy":50,"name":"joy","phone_number":"(+91) 983 893 3937","address":"sasanam","types":["shoe park","shop"],"website":"http://google.com","language":"French-IN"}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=2b88ac551e084c3514d94ed136a321f6
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=2b88ac551e084c3514d94ed136a321f6
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
 Request method:	POST
 Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
 Proxy:			<none>
@@ -24,3 +36,15 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {"location":{"lat":-38.383494,"lng":33.427362},"accuracy":50,"name":"jyo","phone_number":"(+91) 983 893 3937","address":"chennai","types":["shoe park","shop"],"website":"http://google.com","language":"French-IN"}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=a0f750927eb4c6680e130af00a88b484
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=a0f750927eb4c6680e130af00a88b484
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

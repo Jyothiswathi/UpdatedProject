@@ -7,15 +7,25 @@ public class Practice {
 
 public static void main(String args[])
 {
-	String a="joy";
 	
-	String b="narmadha";
-	a=a+b;
-	b=a.substring(0,a.length()-b.length());
-	a=a.substring(b.length());
-	System.out.println(a);
-	System.out.println(b);
+int a=33;
+int rev=0;
+while(a!=0)
+{
+	rev=rev*10+a%10;
+	a=a/10;
 }
+System.out.println(rev);
+
+if(a==rev)
+{
+System.out.println("palindrom");	
 }
+else
+{
+	System.out.println("not palindrome");
+}
+	
+}}
 
 

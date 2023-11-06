@@ -9,6 +9,7 @@ import java.util.Properties;
 import cucumber.api.cli.Main;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;
+import io.restassured.path.json.JsonPath;
 import io.restassured.specification.RequestSpecification;
 
 public class Utils {
@@ -32,6 +33,14 @@ public class Utils {
 		FileInputStream f = new FileInputStream("D:\\practiceExtentMaven\\src\\main\\resources\\global.properties");
 		properties.load(f);
 		return properties.getProperty("url");
+
+	}
+	
+	
+	public String jSonPath(String response,String key)
+	{
+		JsonPath js = new JsonPath(response);
+		 return js.get(key).toString(); 
 
 	}
 }
