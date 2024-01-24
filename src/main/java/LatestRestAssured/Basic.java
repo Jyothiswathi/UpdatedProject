@@ -1,16 +1,10 @@
 package LatestRestAssured;
-import io.restassured.*;
-
-import io.restassured.matcher.ResponseAwareMatcher;
-import io.restassured.response.Response;
-
-import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
-
-import org.testng.Assert;
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.equalTo;
 
 import file.updatedPayload;
-import io.restassured.path.json.*;
+import io.restassured.RestAssured;
+//import io.restassured.path.json.*;
 
 
 

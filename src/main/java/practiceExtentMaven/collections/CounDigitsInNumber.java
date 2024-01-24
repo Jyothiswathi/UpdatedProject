@@ -12,5 +12,6 @@ while(a>0)
 	count++;
 }
 System.out.println(count);
+System.out.println(123/10);
 	}
 }

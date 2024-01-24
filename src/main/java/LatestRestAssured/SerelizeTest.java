@@ -27,6 +27,7 @@ public class SerelizeTest {
 		Addlib.setTypes(al);
 		Addlib.setWebsite("http://google.com");
 		Addlib.setLanguage("French-IN");
+		System.out.println(Addlib);
 		
 	
 		

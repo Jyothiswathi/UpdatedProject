@@ -1,13 +1,12 @@
 package LatestRestAssured;
 
 import file.Payload;
-import io.restassured.path.json.JsonPath;
 
 public class ComplexJson {
 
 	public static void main(String[] args) {
 
-		JsonPath js = new JsonPath(Payload.complexJson());
+		com.jayway.restassured.path.json.JsonPath js = new com.jayway.restassured.path.json.JsonPath(Payload.complexJson());
 		// total number of courses
 		int totalCourses = js.getInt("courses.size()");
 		// System.out.println(totalCourses);

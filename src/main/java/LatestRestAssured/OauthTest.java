@@ -1,8 +1,6 @@
 package LatestRestAssured;
 import static io.restassured.RestAssured.given;
 
-import io.restassured.path.json.JsonPath;
-
 public class OauthTest {
 
 	public static void main(String[] args) {
@@ -21,7 +19,7 @@ String accessTokenResponse	=	given().urlEncodingEnabled(false)
 		.queryParams("redirect_url","https://rahulshettyacademy.com/getCourse.php")
 		.queryParams("grant_type","authorization_code")
 		.when().log().all().post("https://www.googleapis.com/oauth2/v4/token").asString();
-JsonPath js=new JsonPath(accessTokenResponse);
+com.jayway.restassured.path.json.JsonPath js=new com.jayway.restassured.path.json.JsonPath(accessTokenResponse);
 String accessToken=js.getString("access_token");
 
 

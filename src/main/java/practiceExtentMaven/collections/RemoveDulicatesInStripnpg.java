@@ -7,18 +7,25 @@ public class RemoveDulicatesInStripnpg {
 
 	public static void main(String[] args) {
 		
-		String s[]= {"jyo","joy","joy"};
-		Set<String> s1=new HashSet<String>();
-		for(String x:s)
+		String s="hi hi this is jyothi";
+		String[] s1 = s.split(" ");
+		String newString="";
+		Set<String> s2=new HashSet<String>();
+		for(String x:s1)
 		{
-		if(s1.add(x)==false)	
+		s2.add(x);
+		}
+		for(String x:s2)
 		{
-		System.out.println(x);	
+			System.out.print(x+ " ");
 		}
-		}
-		
 		
 		
 	}
+	
+	
+	
+	
+	
 
 }
